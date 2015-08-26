@@ -38,3 +38,15 @@
     width:50%;
 }
 
+.float-right {
+    float: right;
+
+}
+
+.float-left {
+    float: left;
+}
+
+.a-font-overide {
+    font-size: 1.15em;
+}
