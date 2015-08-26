@@ -114,3 +114,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.sep.join([os.path.dirname(os.path.dirname(__file__)), 'static']),
 )
+Hello
