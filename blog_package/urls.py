@@ -20,7 +20,7 @@ from django.conf import settings
 
 
 urlpatterns = [
-    url(r'^admin/',
+    url(r'^administration/lance/',
         include(admin.site.urls)),
     url(r'^blog/',
         include('blog.urls',
