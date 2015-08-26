@@ -1,3 +1,40 @@
 .white-h1 {
     color: white;
 }
+
+.contact-info {
+    font-size: 150%;
+}
+
+
+.skilltable{
+    margin: auto;
+    width:100%;
+    text-align:center;
+}
+.skilltable  td{
+    margin: auto;
+    width: 33.3333%;
+    text-align:center;
+    padding:3%;
+}
+.sidetext{
+    width:50%
+}
+.toolstech{
+    margin: auto;
+    width:100%;
+    text-align:center;
+}
+.toolstech.tr{
+    margin: auto;
+    width:100%;
+    text-align:center;
+}
+.toolstech td {
+    margin: auto;
+    text-align: center;
+    padding: .2%;
+    width:50%;
+}
+

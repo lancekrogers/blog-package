@@ -8,7 +8,7 @@ def portfolio(request):
 
 
 def resume(request):
-    return HttpResponse('Resume Goes Here')
+    return render(request, 'portfolio/resume.html')
 
 
 def projects(request):
