@@ -12,4 +12,4 @@ def resume(request):
 
 
 def projects(request):
-    return HttpResponse("Example Projects Go Here")
+    return render(request, 'portfolio/projects.html')

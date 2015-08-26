@@ -40,7 +40,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="{% url 'portfolio:portfolio' %}">
                     <i class="fa fa-play-circle"></i>  <span class="light">Lance</span> Kincaid Rogers
                 </a>
             </div>
@@ -53,13 +53,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="{% url 'portfolio:portfolio' %}#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="{% url 'portfolio:portfolio' %}#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="{% url 'portfolio:portfolio' %}#contact">Contact</a>
                     </li>
                 </ul>
             </div>
