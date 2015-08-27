@@ -1,0 +1,10 @@
+branch-defaults:
+  production:
+    environment: blog-test
+global:
+  application_name: blog
+  default_ec2_keyname: aws-blog
+  default_platform: Python 3.4
+  default_region: us-east-1
+  profile: eb-cli
+  sc: git
