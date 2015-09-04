@@ -27,4 +27,6 @@ urlpatterns = [
                 namespace='blog')),
     url(r'^', include('portfolio.urls',
                       namespace='portfolio')),
+    url(r'^uploads/',
+                      include('stickyuploads.urls')),
 ]
