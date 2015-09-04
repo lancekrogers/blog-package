@@ -75,3 +75,12 @@
     background-size: cover;
     background-image: url("../../static/img/amazon2.png");
 }
+
+.registration {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #c4e3f3;
+
+}
