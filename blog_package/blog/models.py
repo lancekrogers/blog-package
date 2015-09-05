@@ -12,6 +12,7 @@ class Post(models.Model):
     date = models.DateField(auto_now_add=True)
     photos = models.ManyToManyField('Photo', blank=True)
 
+
 class Photo(models.Model):
     blog_post = models.ForeignKey(Post, blank=True, null=True)
     title = models.CharField(max_length=30, blank=True, null=True)
