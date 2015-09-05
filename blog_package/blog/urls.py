@@ -1,8 +1,9 @@
 from django.conf.urls import include, url
 from django.contrib.auth.views import login, logout
-from blog.views import home
+from blog.views import home, makepost
 
 urlpatterns = [
+    url(r'^$', home, name='home'),
     url(r'login/$',
         login,
         name='Login'),
@@ -10,6 +11,5 @@ urlpatterns = [
         logout,
         {'next_page': 'blog:home'},
         name='Logout'),
-    url(r'', home, name='home'),
-
+    url(r'create-post/$', makepost, name='create-post'),
 ]
