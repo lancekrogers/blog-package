@@ -13,3 +13,6 @@ def resume(request):
 
 def projects(request):
     return render(request, 'portfolio/projects.html')
+
+def edgar(request):
+    return render(request, 'portfolio/edgar_project.html')
